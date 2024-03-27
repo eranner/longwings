@@ -23,7 +23,7 @@ function show_main_cards() {
                     <div class="card-body">
                         <h5 class="card-title">'. get_the_title().'</h5>
                         <p class="card-text">'.get_the_content().'</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary" style="background:#fafd65; color:#333; border: 1px solid #333;">Read More</a>
                     </div>
                 </div>';
     }
